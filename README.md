@@ -1,4 +1,4 @@
-# Lógica - Variáveis, Tipos de Dados, Operadores e Condicional 🚀
+# Lógica - Variáveis, Tipos de Dados e Operadores 🚀
 
 **Semana 2 – Resolução de Problemas/Lógica aplicada e JavaScript (sintaxe básica)**
 
@@ -8,7 +8,6 @@
 
 <br>
 <br>
-
 
 ## Plano da aula:
 ------
