@@ -425,7 +425,7 @@ Resolva as questões abaixo:
 
 ## Simara Conceição
 - [instagram](https://www.instagram.com/simara_conceicao)
-- [youtube] (https://www.youtube.com/channel/UCGaPf6u8sp-yd5BvOS3du0g)
+- [youtube](https://www.youtube.com/channel/UCGaPf6u8sp-yd5BvOS3du0g)
 - [linkedin](https://www.linkedin.com/in/simaraconceicao/)
 - [github](https://github.com/simaraconceicao)
 - [spotify](https://open.spotify.com/show/59vCz4TY6tPHXW26qJknh3)
