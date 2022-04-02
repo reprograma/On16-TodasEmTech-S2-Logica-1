@@ -16,8 +16,8 @@
 
 * Usar as reações do zoom e levantar a mão para sinalizar que gostaria de falar
 * Enviar as dúvidas no chat
-* Manter microfone desligado quando outras pessoas estiverem falando
-* Manter câmera ligada o máximo possível
+* Manter o microfone desligado quando outras pessoas estiverem falando
+* Manter a câmera ligada o máximo possível
 * Momento mão no código, momento de olho na tela
 
 <br>
@@ -44,7 +44,7 @@ Segundo o livro "Estrutura de dados e algoritmos com javascript", de Loiane Gron
 
 Praticamente todos os sites e aplicações web usam javascript, até outras ferramentas que são usadas para web, no fim das contas vão precisar transformar o código em javascript para que o navegador entenda. 
  
-Além disso, a linguagem javascript evoluiu muito e aparecem até em aplicativos mobile(com React Native), Softwares de interface gráfica para Desktop e até games, robótica e inteligência artificial. Além disso, tem o backend também utilizando o nodejs.
+Além disso, a linguagem javascript evoluiu muito e aparecem até em aplicativos mobile, Softwares de interface gráfica para Desktop e até games, robótica e inteligência artificial. Além disso, tem o backend também utilizando o nodejs.
 
 E tem uma lista imensa de empresas que usam Javascript ou alguma ferramenta que derivou dela, então o próprio netflix, uber, instagram, facebook, twitter entre outras. Usam o react que é uma outra ferramenta baseada em javascript.
 
@@ -58,7 +58,7 @@ Antes da gente encerrar essa parte eu quero fazer um combinado com você. Se voc
 
 ### 4. O que é NodeJS?
 
-É um interpretador Javascript que não depende do navegador. Ele é formado pelo V8, motor interpretador de Javascript criado pelo Google, e pela libuv, uma biblioteca que deu características de linguagem back-end para o node.
+É um interpretador Javascript que não depende do navegador. Ele é formado pelo V8, motor interpretador de Javascript criado pelo Google, e pela libuv, uma biblioteca que deu características de linguagem backend para o node.
 
 Node.js revolucionou a forma de programar em Javascript, pois a linguagem evoluiu de uma forma de dar vida aos elementos no navegador para uma linguagem capaz de criar software para tratamento de dados no backend.
 
@@ -83,7 +83,7 @@ Node.js revolucionou a forma de programar em Javascript, pois a linguagem evolui
 
 JavaScript é uma linguagem dinamicamente tipada. 
 
-Isso significa dizer que não é preciso especificar o tipo do dado quando formos declarar uma variavél. Além disso os tipos de dados são convertidos automaticamente conforme a necessidade de execução do nosso script. Mais pra frente você vai perceber isso melhor.
+Isso significa dizer que não é preciso especificar o tipo do dado quando formos declarar uma variavél ou quando esperamos o retorno de uma função. Além disso, os tipos de dados são convertidos automaticamente conforme a necessidade de execução do nosso script. Mais pra frente você vai perceber isso melhor.
 
 Aprender tipos de dados é um super poder para resolver problemas com estrutura de dados e algoritmos lá no futuro.
 
@@ -127,10 +127,6 @@ myName = "Simara";
 console.log(`Hello ${myName}`)
 //Vai imprimir Hello Simara
 ````
-
-#
-
-
 ##### Number
 
 É o tipo de dado númerico no Javascript e podemos identificar, geralmente como números inteiros ou decimais, também conhecido como float. 
@@ -138,10 +134,7 @@ console.log(`Hello ${myName}`)
 1
 
 1.5 
-````
-
-#
-
+```
 
 ##### Boolean
 
@@ -154,7 +147,8 @@ false
 
 ##### Null x undefined
 
-Null é um objeto vazio e undefined é o valor pra uma variável não definida, por exemplo.
+Null é um objeto vazio
+undefined é o valor pra uma variável não definida, por exemplo.
 
 #
 
@@ -311,6 +305,25 @@ A boa prática é: sempre que possível, evite usar variaveis globais em javaScr
 
 #### 6.3 Operadores:
 
+Termos: unário, binário e operando
+
+`Operando` – na multiplicação de `8 * 2` existem dois operandos: esquerdo é o 8 e direito é o 2.
+
+`Unário` - quando temos um único operando. Por exemplo, a negação unária -inverte o sinal de um número:
+
+```
+let x = 1;
+x = -x;
+
+alert( x ); // -1, um operador menos unário que inverte o sinal
+```
+`Binário` -  se tiver dois operandos. O mesmo sinal de menos também existe na forma binária:
+
+```
+let x = 1, y = 3;
+alert( y - x ); // 2, um operador binário que subtrai um número de outro
+```
+
 Precisamos de operadores para realizar qualquer operação em uma linguagem de programação. O javascript também tem seus operadores aritméticos, de atribuição, lógicos entre outros.
 
 **Aritméticos:**
@@ -393,6 +406,18 @@ Precisamos de operadores para realizar qualquer operação em uma linguagem de p
 | Exemplo 07 | Descrição |
 | --- | --- |
 | `conversor de medidas` | Escreva um programa que receba um valor em metros e o exiba no console convertido em milímetros. |
+
+| Exemplo 08 | Descrição |
+| --- | --- |
+| `calculadora de IMC` | Escreva um programa que recebe uma altura em metros e o peso em kg e calcule o IMC. |
+
+| Exemplo 09 | Descrição |
+| --- | --- |
+| `Boletim` | Escreva um programa que recebe 4 notas, calcula a média e exibe no console. |
+
+| Exemplo 10 | Descrição |
+| --- | --- |
+| `conversor de temperatura` | Escreva um programa que recebe a temperatura em graus Celsius e converte para Fahrenheit, exiba o resultado no console. |
 
 <br>
 
